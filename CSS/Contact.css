@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #2C3E50;
+  background-color: #344c64;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2C3E50;
+}
+
+.contactForm {
+  max-width: 600px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.contactForm textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.contactForm button {
+  background-color: #E74C3C;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+  background-color: #c0392b;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .Hero {
+    padding: 40px 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-footer {
+    font-size: 13px;
+    padding: 15px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero {
+    padding: 30px 15px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+}

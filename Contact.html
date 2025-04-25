@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Techie Talk</title>
+  <link rel="stylesheet" type="text/css" href="./CSS/Style.css" />
+  <link rel="stylesheet" type="text/css" href="./CSS/Contact.css" />
+  <script src="./JS/Script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">Techie Talk</a>
+      </div>
+      <nav>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="AboutUs.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <div class="col">
+    <div class="contactForm">
+      <h1>GET IN TOUCH WITH US</h1>
+      <input type="text" placeholder="Name" id="contactName">
+      <input type="text" placeholder="Email" id="contactEmail">
+      <textarea placeholder="Message" id="contactMessage"></textarea>
+      <button>SUBMIT</button>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; <script>document.write(new Date().getFullYear());</script> Techie Talk. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
